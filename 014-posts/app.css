@@ -38,3 +38,10 @@ img {
 }
 
 /* Code Under This Line */
+
+
+.services {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

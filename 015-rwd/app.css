@@ -33,3 +33,23 @@ body {
 .post-title {
   font-size: 2rem;
 }
+
+/* Formula for converting fixed to fluid
+target ÷ context = result.
+http://www.creativebloq.com/css3/create-fluid-layouts-html5-and-css3-3142768
+ */
+
+.container {
+  margin: 0px auto;
+  width: 96%; /* holding outermost div*/
+}
+
+.sidebar {
+  width: 31.25%;
+}
+
+.posts {
+  width: 68.75%;
+}
+
+

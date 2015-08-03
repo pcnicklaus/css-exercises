@@ -11,4 +11,14 @@ img {
   height: 100px;
 }
 
-/* Code Under This Line */
+.foo {
+  background-color: red;
+}
+
+.bar {
+  background-color: blue;
+}
+
+div, ul, section, h3, h1, img   {
+  background-color: green;
+}

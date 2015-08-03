@@ -1,6 +1,7 @@
 div, section {
   background: #222;
   color: white;
+  postion: relative;
 }
 
 img {
@@ -12,3 +13,20 @@ img {
 }
 
 /* Code Under This Line */
+/* could have set the top and bottom to 10px each */
+
+.foo {
+  margin-top: 20px;
+}
+
+/*this centering is based my actual screen size found via http://www.displaycalibration.com/resolution.html, which is 823px which does not include browser bar, search window, etc.*/
+.center {
+  top: 50%;
+  height: 100px;
+  margin-top: 133px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  vertical-align: middle;
+}

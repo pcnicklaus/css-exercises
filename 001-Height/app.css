@@ -9,3 +9,28 @@ img {
 }
 
 /* Code Under This Line */
+
+.short {
+  height: 100px;
+}
+
+.tall {
+  height: 200px;
+}
+
+.inside {
+  height: 100%;
+}
+
+.outside {
+  padding: 0px;
+  height: 100%;
+}
+
+.giant {
+  min-height: 100vh;
+}
+
+body {
+  height: 100%;
+}
